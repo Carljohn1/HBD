@@ -1,0 +1,36 @@
+@media (max-width: 400px) {
+  body {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(hearts.jpg);
+  }
+  /* .face {
+    width: 200px;
+  } */
+  h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    animation-name: hbd;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @keyframes hbd {
+    0% {
+      color: #ffda79;
+    }
+    25% {
+      color: paleturquoise;
+    }
+    50% {
+      color: violet;
+    }
+    75% {
+      color: rgb(255, 169, 169);
+    }
+    100% {
+      color: lightgray;
+    }
+  }
+}
