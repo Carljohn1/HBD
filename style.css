@@ -3,18 +3,21 @@
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(hearts.jpg);
+    background-image: url(flower.png);
+    margin-top: 0;
   }
   /* .face {
     width: 200px;
   } */
   h1 {
+    margin-top: 0;
     text-align: center;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     animation-name: hbd;
     animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    /* background-color: rgba(255, 255, 255, 0.226); */
   }
   @keyframes hbd {
     0% {
@@ -40,5 +43,9 @@
     text-align: center;
     margin-top: 250px;
     border-radius: 20px;
+  }
+  .credit {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.534);
   }
 }
